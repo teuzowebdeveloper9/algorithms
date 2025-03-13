@@ -17,6 +17,8 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 
 ### 2. Bubble Sort
 
+![Gif buble sort](  https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Bubble-sort-example-300px.gif
+   )
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order.
 
 ### 3. Insertion Sort
