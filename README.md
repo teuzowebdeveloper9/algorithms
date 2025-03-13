@@ -29,6 +29,7 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
 
 ### 4. Merge Sort
+![Gif binary search](  https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Merge-sort-example-300px.gif  )
 
 Merge Sort is a divide-and-conquer algorithm that splits the array into smaller subarrays, sorts them, and then merges them back together in the correct order. It has a time complexity of O(n log n) and is efficient for large datasets.
 
