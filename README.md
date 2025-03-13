@@ -3,8 +3,7 @@ seeing some of the algorithms explained in understanding algorithms
 
 # Algorithms
 
-![Algorithms](  ![17418800129474994072831080568202](https://github.com/user-attachments/assets/5d229537-b98d-489f-baa9-6b3462e557ee)
-   )
+![Algorithms]( )
 
 This repository contains implementations of various algorithms as I learn and understand them from the book "Understanding Algorithms".
 
