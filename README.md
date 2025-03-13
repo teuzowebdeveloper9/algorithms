@@ -2,7 +2,7 @@
 
 This repository contains implementations of various algorithms as explained in the book *Understanding Algorithms*.
 
-![Understanding Algorithms Book Cover](  ![17418864998181133489979398771585](https://github.com/user-attachments/assets/f66fc850-c737-44a6-9785-384a31d3dfb8)
+![Understanding Algorithms Book Cover]( https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/main/images%20(1).jpeg 
    )
 
 ## Introduction
