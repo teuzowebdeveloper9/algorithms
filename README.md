@@ -53,6 +53,18 @@ Quicksort is a highly efficient sorting algorithm and is based on the divide-and
 
 This algorithm is in-place and has an average time complexity of O(n log n), making it suitable for large datasets.
 
+### 6. Heapsort
+![Gif heapsort](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/heapsort-example.gif)
+
+Heapsort is a comparison-based sorting algorithm that uses a binary heap data structure. It is similar to selection sort where we first find the maximum element and place it at the end. We repeat the same process for the remaining elements.
+
+#### How Heapsort Works:
+1. **Build a Max Heap**: Rearrange the array to satisfy the heap property.
+2. **Extract Elements**: Swap the root of the heap (maximum value) with the last element of the heap. Reduce the size of the heap by one and heapify the root.
+3. **Repeat**: Repeat the above step until the heap size is reduced to one.
+
+Heapsort has a time complexity of O(n log n) and is efficient for large datasets. It is not a stable sort, meaning that the relative order of equal sort items is not preserved.
+
 
 ## How to Use
 
