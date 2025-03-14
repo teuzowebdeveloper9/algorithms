@@ -66,6 +66,18 @@ Heapsort is a comparison-based sorting algorithm that uses a binary heap data st
 Heapsort has a time complexity of O(n log n) and is efficient for large datasets. It is not a stable sort, meaning that the relative order of equal sort items is not preserved.
 
 
+### 7. Counting Sort
+![Gif counting sort](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/counting-sort-example.gif)
+
+Counting Sort is an integer sorting algorithm that operates by counting the number of occurrences of each distinct element in the input. The algorithm then uses this information to determine the position of each element in the sorted output.
+
+#### How Counting Sort Works:
+1. **Count Occurrences**: Create an auxiliary array to count the occurrences of each value in the input array.
+2. **Compute Positions**: Modify the count array such that each element at each index stores the sum of previous counts. This step determines the positions of each element in the sorted array.
+3. **Build the Output**: Use the count array to place elements into their correct positions in the output array.
+
+Counting Sort has a time complexity of O(n + k), where n is the number of elements in the input array and k is the range of the input. It is efficient for sorting integers within a small range and is a stable sort.
+
 ## How to Use
 
 To use these algorithms, you can clone the repository and run the individual scripts. Each algorithm is implemented in its own script for clarity and ease of use.
