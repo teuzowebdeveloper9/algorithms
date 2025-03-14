@@ -67,7 +67,7 @@ Heapsort has a time complexity of O(n log n) and is efficient for large datasets
 
 
 ### 7. Counting Sort
-![Gif counting sort](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/counting-sort-example.gif)
+![Gif counting sort]( https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/CountingSort.gif  )
 
 Counting Sort is an integer sorting algorithm that operates by counting the number of occurrences of each distinct element in the input. The algorithm then uses this information to determine the position of each element in the sorted output.
 
