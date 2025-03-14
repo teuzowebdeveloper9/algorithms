@@ -78,6 +78,18 @@ Counting Sort is an integer sorting algorithm that operates by counting the numb
 
 Counting Sort has a time complexity of O(n + k), where n is the number of elements in the input array and k is the range of the input. It is efficient for sorting integers within a small range and is a stable sort.
 
+### 8. Radix Sort
+![Gif radix sort](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/radix-sort-example.gif)
+
+Radix Sort is a non-comparative sorting algorithm that sorts integers by processing individual digits. It works by sorting the numbers by their least significant digit and then repeating the process for each more significant digit.
+
+#### How Radix Sort Works:
+1. **Find the Maximum Number**: Determine the number with the maximum digits.
+2. **Sort by Each Digit**: Starting from the least significant digit, sort the numbers using a stable sorting algorithm (like Counting Sort).
+3. **Repeat**: Repeat the process for each digit until the numbers are fully sorted.
+
+Radix Sort has a time complexity of O(d*(n + k)), where d is the number of digits, n is the number of elements, and k is the range of the digits (usually 0-9). It is efficient for large datasets with small digit ranges.
+
 ## How to Use
 
 To use these algorithms, you can clone the repository and run the individual scripts. Each algorithm is implemented in its own script for clarity and ease of use.
