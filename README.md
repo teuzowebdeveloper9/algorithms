@@ -42,7 +42,7 @@ Merge Sort is a divide-and-conquer algorithm that splits the array into ?smaller
 This algorithm ensures stable sorting and is widely used in real-world applications.
 
 ### 5. Quicksort
-![Gif quicksort](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/quicksort-example.gif)
+![Gif quicksort](  https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Quicksort-example.gif  )
 
 Quicksort is a highly efficient sorting algorithm and is based on the divide-and-conquer approach. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
