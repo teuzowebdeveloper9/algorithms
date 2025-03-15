@@ -105,7 +105,7 @@ BFS is useful for finding the shortest path in an unweighted graph and has a tim
 
 ### 10. Depth-First Search (DFS)
 
-![Gif DFS](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/DFS-example.gif)
+![Gif DFS]( https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Depth-First-Search.gif  )
 
 Depth-First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node for a graph) and explores as far as possible along each branch before backtracking.
 
