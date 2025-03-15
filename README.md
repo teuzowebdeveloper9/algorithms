@@ -103,6 +103,19 @@ Breadth-First Search (BFS) is an algorithm for traversing or searching tree or g
 
 BFS is useful for finding the shortest path in an unweighted graph and has a time complexity of O(V + E), where V is the number of vertices and E is the number of edges.
 
+### 10. Depth-First Search (DFS)
+
+![Gif DFS](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/DFS-example.gif)
+
+Depth-First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node for a graph) and explores as far as possible along each branch before backtracking.
+
+#### How DFS Works:
+1. **Initialization**: Start by placing the starting node in a stack.
+2. **Visit Nodes**: Pop a node from the stack, mark it as visited, and push all its adjacent nodes that haven't been visited onto the stack.
+3. **Repeat**: Repeat step 2 until the stack is empty.
+
+DFS is useful for pathfinding and topological sorting in graphs and has a time complexity of O(V + E), where V is the number of vertices and E is the number of edges.
+
 ## How to Use
 
 To use these algorithms, you can clone the repository and run the individual scripts. Each algorithm is implemented in its own script for clarity and ease of use.
