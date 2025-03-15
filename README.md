@@ -90,6 +90,19 @@ Radix Sort is a non-comparative sorting algorithm that sorts integers by process
 
 Radix Sort has a time complexity of O(d*(n + k)), where d is the number of digits, n is the number of elements, and k is the range of the digits (usually 0-9). It is efficient for large datasets with small digit ranges.
 
+### 9. Breadth-First Search (BFS)
+
+![Gif BFS](  https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Breadth-First-Search-Algorithm.gif  )
+
+Breadth-First Search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the root (or an arbitrary node for a graph) and explores the neighbor nodes at the present depth prior to moving on to nodes at the next depth level.
+
+#### How BFS Works:
+1. **Initialization**: Start by placing the starting node in a queue.
+2. **Visit Nodes**: Dequeue a node from the queue, mark it as visited, and enqueue all its adjacent nodes that haven't been visited.
+3. **Repeat**: Repeat step 2 until the queue is empty.
+
+BFS is useful for finding the shortest path in an unweighted graph and has a time complexity of O(V + E), where V is the number of vertices and E is the number of edges.
+
 ## How to Use
 
 To use these algorithms, you can clone the repository and run the individual scripts. Each algorithm is implemented in its own script for clarity and ease of use.
