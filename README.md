@@ -118,7 +118,7 @@ DFS is useful for pathfinding and topological sorting in graphs and has a time c
 
 ### 11. Dijkstra’s Algorithm
 
-![Gif Dijkstra](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Dijkstra-example.gif)
+![Gif Dijkstra]( https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Dijkstra_Animation.gif  )
 
 Dijkstra’s Algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It works by repeatedly selecting the node with the smallest known distance from the start node and updating the cost of reaching adjacent nodes.
 
