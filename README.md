@@ -131,6 +131,20 @@ Dijkstra’s Algorithm is an algorithm for finding the shortest paths between no
 
 Dijkstra’s Algorithm is useful for finding the shortest path in weighted graphs and has a time complexity of O(V^2) for the basic implementation, where V is the number of vertices. With a priority queue, it can be optimized to O((V + E) log V), where E is the number of edges.
 
+### 12. Bellman-Ford Algorithm
+
+![Gif Bellman-Ford]( https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Bellman%E2%80%93Ford_algorithm_example.gif    )
+
+The Bellman-Ford Algorithm is an algorithm for finding the shortest paths from a single source vertex to all other vertices in a weighted graph. Unlike Dijkstra’s algorithm, it can handle graphs with negative weight edges.
+
+#### How Bellman-Ford Algorithm Works:
+1. **Initialization**: Start by assigning a tentative distance value to every node: set the distance to the source node to 0 and all other nodes to infinity.
+2. **Relaxation**: For each edge, if the distance to the destination can be shortened by taking the edge, update the distance to the destination.
+3. **Repeat**: Repeat step 2 for a total of V-1 times, where V is the number of vertices.
+4. **Check for Negative Cycles**: Perform one more iteration over all edges. If any distance can still be shortened, a negative weight cycle exists in the graph.
+
+The Bellman-Ford Algorithm has a time complexity of O(V * E), where V is the number of vertices and E is the number of edges. It is useful for graphs with negative weight edges and can detect negative weight cycles.
+
 ## How to Use
 
 To use these algorithms, you can clone the repository and run the individual scripts. Each algorithm is implemented in its own script for clarity and ease of use.
