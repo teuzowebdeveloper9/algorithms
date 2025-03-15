@@ -116,9 +116,25 @@ Depth-First Search (DFS) is an algorithm for traversing or searching tree or gra
 
 DFS is useful for pathfinding and topological sorting in graphs and has a time complexity of O(V + E), where V is the number of vertices and E is the number of edges.
 
+### 11. Dijkstra’s Algorithm
+
+![Gif Dijkstra](https://raw.githubusercontent.com/teuzowebdeveloper9/algorithms/refs/heads/Images/Dijkstra-example.gif)
+
+Dijkstra’s Algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It works by repeatedly selecting the node with the smallest known distance from the start node and updating the cost of reaching adjacent nodes.
+
+#### How Dijkstra’s Algorithm Works:
+1. **Initialization**: Start with the initial node and assign it a tentative distance of 0, while all other nodes have a tentative distance of infinity. Set the initial node as current.
+2. **Visit Nodes**: For the current node, consider all its unvisited neighbors and calculate their tentative distances through the current node. Compare the newly calculated tentative distance to the current assigned value and assign the smaller one.
+3. **Mark as Visited**: Once all neighbors of the current node have been considered, mark the current node as visited. A visited node will not be checked again.
+4. **Select Next Node**: Select the unvisited node that is marked with the smallest tentative distance, and set it as the new "current node" then go back to step 2.
+5. **Repeat**: Repeat steps 2-4 until the destination node has been marked visited or all nodes are visited.
+
+Dijkstra’s Algorithm is useful for finding the shortest path in weighted graphs and has a time complexity of O(V^2) for the basic implementation, where V is the number of vertices. With a priority queue, it can be optimized to O((V + E) log V), where E is the number of edges.
+
 ## How to Use
 
 To use these algorithms, you can clone the repository and run the individual scripts. Each algorithm is implemented in its own script for clarity and ease of use.
+
 
 ```bash
 git clone https://github.com/teuzowebdeveloper9/algorithms.git
